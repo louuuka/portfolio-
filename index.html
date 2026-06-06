@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Melek Bahroun — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- ── NAV ── -->
+<nav>
+  <a href="#about" class="nav-logo">Melek Bahroun</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#languages">Languages</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="https://github.com/louuuka" target="_blank" rel="noopener">GitHub ↗</a></li>
+    <li><a href="https://www.linkedin.com/in/melek-bahroun-b01673265/" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+  </ul>
+  <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+    
+  </button>
+</nav>
+
+<!-- ── HERO ── -->
+<section class="hero" id="about">
+  <div class="hero-left">
+    <p class="hero-tag">Software Engineering Student · ISIMM Monastir</p>
+    <h1 class="hero-name">Melek<br><em>Bahroun</em></h1>
+    <p class="hero-bio">
+      2nd‑year Software Engineering student seeking a summer internship in web development,
+      software engineering, or embedded systems. Passionate about building impactful products
+      with AI &amp; full‑stack technologies.
+    </p>
+    <div class="hero-cta">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact"  class="btn-ghost">Get in Touch</a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-bg-shape"></div>
+    <div class="hero-photo-wrap">
+      <img src="portfolio2.jpeg" alt="">    
+</div>
+  </div>
+</section>
+
+<!-- ── SKILLS ── -->
+<section id="skills">
+  <h2 class="section-title">Skills &amp; Tools</h2>
+  <div class="skills-grid">
+
+    <div class="skill-card reveal">
+      <div class="skill-card-label">Programming</div>
+      <div class="skill-card-content">Python · JavaScript</div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-label">Web Development</div>
+      <div class="skill-card-content">React.js · Node.js · Tailwind CSS</div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-label">AI &amp; Machine Learning</div>
+      <div class="skill-card-content">TensorFlow · scikit-learn · Model Training &amp; Deployment</div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-label">Databases</div>
+      <div class="skill-card-content">MySQL · Firebase</div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-label">Cloud &amp; DevOps</div>
+      <div class="skill-card-content">Git · GitHub</div>
+    </div>
+
+    <div class="skill-card reveal">
+      <div class="skill-card-label">Soft Skills</div>
+      <div class="skill-card-content">
+        Autonomy · Teamwork · Technical Curiosity · Innovation Mindset · Continuous Learning
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── PROJECTS ── -->
+<section id="projects">
+  <h2 class="section-title">Projects</h2>
+  <div class="projects-list">
+
+    <div class="project-card reveal">
+      <div>
+        <div class="project-name">ASL Sign Language Recognition</div>
+        <p class="project-desc">
+          Designed and developed a real‑time American Sign Language gesture recognition system
+          using a Convolutional Neural Network (CNN). Integrated MediaPipe for hand keypoint
+          detection, TensorFlow for model inference, and OpenCV for live video processing.
+          The system classifies 29 distinct signs with confidence‑based filtering.
+        </p>
+        <div class="project-tags">
+          <span class="tag">Python</span>
+          <span class="tag">TensorFlow</span>
+          <span class="tag">MediaPipe</span>
+          <span class="tag">OpenCV</span>
+          <span class="tag">CNN</span>
+        </div>
+      </div>
+      <div class="project-number">01</div>
+    </div>
+
+    <div class="project-card reveal">
+      <div>
+        <div class="project-name">Smart Medic</div>
+        <p class="project-desc">
+          AI‑powered medical assistant web application that analyses patient symptoms and provides
+          medical recommendations using Grok and Gemini AI models. Features real‑time geolocation
+          of nearby doctors and an integrated online appointment booking system. Built with a
+          scalable full‑stack architecture using React.js, Node.js, and Firebase.
+        </p>
+        <div class="project-tags">
+          <span class="tag">React.js</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">Grok AI</span>
+          <span class="tag">Gemini</span>
+          <span class="tag">Geolocation</span>
+        </div>
+      </div>
+      <div class="project-number">02</div>
+    </div>
+
+    <div class="project-card reveal">
+      <div>
+        <div class="project-name">Care Quest</div>
+        <p class="project-desc">
+          A mental wellness web platform that empowers users to track their mood, manage daily
+          tasks, and receive personalised well‑being reminders. Designed to foster emotional
+          awareness, stress reduction, and a healthier life balance through gentle habit‑building.
+        </p>
+        <div class="project-tags">
+          <span class="tag">React.js</span>
+          <span class="tag">Node.js</span>
+          <span class="tag">Firebase</span>
+          <span class="tag">Wellness Tech</span>
+        </div>
+      </div>
+      <div class="project-number">03</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── EDUCATION ── -->
+<section id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="edu-timeline">
+
+    <div class="edu-item reveal">
+      <div class="edu-year">2024 – 2027</div>
+      <div>
+        <div class="edu-school">ISIMM — Institut Supérieur d'Informatique et de Mathématiques de Monastir</div>
+        <div class="edu-degree">Bachelor's Degree in Computer Science — Software Engineering (2nd year)</div>
+      </div>
+    </div>
+
+    <div class="edu-item reveal">
+      <div class="edu-year">2024</div>
+      <div>
+        <div class="edu-school">Lycée de Djerba Houmt Souk</div>
+        <div class="edu-degree">Baccalaureate in Computer Science</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── LANGUAGES ── -->
+<section id="languages">
+  <h2 class="section-title">Languages</h2>
+  <div class="lang-grid">
+    <div class="lang-pill reveal">Arabic</div>
+    <div class="lang-pill reveal">French</div>
+    <div class="lang-pill reveal">English</div>
+  </div>
+</section>
+
+<!-- ── CONTACT ── -->
+<section id="contact">
+  <p class="section-label">Let's Connect</p>
+  <h2 class="section-title">Get in Touch</h2>
+  <div class="contact-grid">
+
+    <div class="contact-item reveal">
+      <span class="contact-type">Email</span>
+      <a href="mailto:bhrmelek1@gmail.com" class="contact-val">bhrmelek1@gmail.com</a>
+    </div>
+
+    <div class="contact-item reveal">
+      <span class="contact-type">Phone</span>
+      <a href="tel:+21655820943" class="contact-val">+216 55 820 943</a>
+    </div>
+
+    <div class="contact-item reveal">
+      <span class="contact-type">Location</span>
+      <span class="contact-val">Djerba, Tunisia</span>
+    </div>
+
+    <div class="contact-item reveal">
+      <span class="contact-type">GitHub</span>
+      <a href="https://github.com/louuuka" target="_blank" rel="noopener" class="contact-val">
+        github.com/louuuka
+      </a>
+    </div>
+
+    <div class="contact-item reveal">
+      <span class="contact-type">LinkedIn</span>
+      <a href="https://www.linkedin.com/in/melek-bahroun-b01673265/" target="_blank" rel="noopener" class="contact-val">
+        melek-bahroun
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  &copy; <span id="footer-year"></span> Melek Bahroun — Software Engineering Student
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
